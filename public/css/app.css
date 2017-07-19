@@ -1,0 +1,94 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("/images/background.jpg");
+	background-attachment: fixed;
+}
+
+.background {
+	background: rgba(255, 255, 255, 0.4);
+	min-height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: -100;
+}
+
+.tagLine {
+	padding-top: 5px;
+	font-size: x-small;
+}
+
+.main {
+	margin: 0 auto;
+	text-align: center;
+	min-height: 100%;
+	max-width: 575px;
+	background: rgba(249, 249, 249, 0.80);
+}
+
+.invalid {
+	border: 1px solid red;
+}
+
+.topPadding {
+	padding-top: 15px;
+}
+
+.bottomPadding {
+	padding-bottom: 15px;
+}
+
+.fontSmall {
+	font-size: small;
+}
+
+.bodyText {
+	width: 90%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.70);
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.screenshot {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+}
+
+.screenshot img {
+	max-width: 100%;
+	height: auto;
+}
+
+.socialFooter {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	text-align: right;
+	color: #FFFFFF;
+	font-size: small;
+}
+
+.socialFooter div {
+	padding-top: 2px;
+}
+
+input[type="text"] {
+	width: 80%;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
