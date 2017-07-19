@@ -5,7 +5,7 @@ This project allows a user to take a screenshot of a tweet and print it on vario
 
 * A screenshot is taken via [nightmare](https://www.npmjs.com/package/nightmare) and cropped with [jimp](https://www.npmjs.com/package/jimp)
 * The screenshot is uploaded to [Imgur](https://imgur.com/)
-* The user is redirected to [Zazzle](https://www.zazzle.com/) with the image URL from the above step in the query string
+* The user is redirected to Zazzle with the image URL from the above step in the query string
 * Zazzle shows the screenshot superimposed on various products, which the user can purchase and further customize
 
 ## Setup
