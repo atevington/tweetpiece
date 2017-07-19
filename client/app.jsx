@@ -91,7 +91,7 @@ var App = React.createClass({
 						placeholder="Paste tweet url here"
 						onChange={_self.onUrlChange}
 						ref={_self.focusTextInput}
-						className={!_self.isValidUrl(_self.state.url) ? " invalid" : ""}
+						className={!_self.isValidUrl(_self.state.url) ? "invalid" : ""}
 						readOnly={_self.isImageLoading()}
 						value={_self.state.url}
 					/>
