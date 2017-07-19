@@ -4,7 +4,7 @@ var Screenshot = require("./screenshot.jsx");
 var Shop = require("./shop.jsx");
 
 function getUrlParameterByName(name) {
-	var regex = new RegExp("[?&]" + name.replace(/[\[\]]/g, "\\$&") + "(=([^&#]*)|&|#|$)")
+	var regex = new RegExp("[?&]" + name.replace(/[\[\]]/g, "\\$&") + "(=([^&#]*)|&|#|$)");
 	var results = regex.exec(window.location.href);
 	
 	if (!results) {
